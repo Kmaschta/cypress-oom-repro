@@ -1,0 +1,12 @@
+{
+    "fixturesFolder": "fixtures",
+    "integrationFolder": "integration",
+    "pluginsFile": "plugins",
+    "screenshotsFolder": "screenshots",
+    "supportFile": "support/index.ts",
+    "videosFolder": "videos",
+    "viewportHeight": 900,
+    "viewportWidth": 1280,
+    "watchForFileChanges": true,
+    "numTestsKeptInMemory": 1
+}

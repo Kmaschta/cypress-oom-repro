@@ -1,0 +1,27 @@
+{
+  "name": "cypress-memory-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "cypress open",
+    "test-ci": "cypress run --browser chrome --config watchForFileChanges=false,video=false"
+  },
+  "devDependencies": {
+    "@babel/core": "7.0.1",
+    "@babel/preset-env": "7.0.0",
+    "@cypress/webpack-preprocessor": "4.1.0",
+    "@types/node": "^12.12.14",
+    "babel-loader": "8.0.5",
+    "cypress": "3.3.2",
+    "cypress-testing-library": "2.3.6",
+    "date-fns": "2.2.1",
+    "dom-testing-library": "3.18.1",
+    "lint-staged": "7.3.0",
+    "ms": "2.1.1",
+    "ts-loader": "6.0.4",
+    "typescript": "3.6.4",
+    "webpack": "4.35.0"
+  }
+}

@@ -1,0 +1,23 @@
+language: generic
+
+dist: bionic
+
+addons:
+  apt:
+    packages:
+      - libgconf2-4
+
+cache:
+  directories:
+    - .cache/cypress
+    - .cache/yarn
+
+before_script:
+  - make install
+
+script:
+  - make test
+
+branches:
+  only:
+    - master
